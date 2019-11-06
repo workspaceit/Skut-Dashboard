@@ -1,0 +1,61 @@
+$color_primary: #32304A;
+$color_secondary: #46CBFF;
+$color_bg: #777777;
+
+.page-menu {
+    border-left: 0px;
+    border-right: 0px;
+    background: $color_bg;
+    a {
+        display: inline-block;
+        padding: 10px 15px;
+        width: 50%;
+        position: relative;
+        &:first-child {
+            margin-right: -4px;
+            border-right: 1px solid #fff;
+        }
+        &:last-child {
+            &:hover {
+                &:after {
+                    content: '';
+                    position: absolute;
+                    height: 5px;
+                    width: 100%;
+                    bottom: 0;
+                    right: 0;
+                    background: $color_secondary;
+                }
+            }
+        }
+        &:hover {
+            &:after {
+                content: '';
+                position: absolute;
+                height: 5px;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                background: $color_secondary;
+            }
+        }
+        &.active {
+            &:after {
+                content: '';
+                position: absolute;
+                height: 5px;
+                width: 100%;
+                bottom: 0;
+                left: 0;
+                background: $color_secondary;
+            }
+        }
+        p {
+            margin: 0px;
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+.page_content {
+  min-height: 30vh;
+  padding: 40px 40px; }
+  .page_content .list-page {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 9px 1px #f1f1f1;
+    border-radius: 10px; }
+    .page_content .list-page .pageTitle {
+      font-weight: bold;
+      font-size: 20px;
+      position: relative;
+      margin-bottom: 30px; }
+      .page_content .list-page .pageTitle .add_btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #61dafb;
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px 3px #cdcdcd;
+        transition: all 0.5s ease; }
+        .page_content .list-page .pageTitle .add_btn:hover {
+          opacity: 0.8; }
+        .page_content .list-page .pageTitle .add_btn a {
+          display: block;
+          font-size: 25px;
+          text-align: center;
+          color: #fff; }
+
+.image_select {
+  min-height: 40px; }

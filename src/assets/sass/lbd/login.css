@@ -1,0 +1,32 @@
+.login_wrapper {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  min-width: 100vw;
+  position: relative;
+  z-index: 111;
+  display: table; }
+  .login_wrapper:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    z-index: 11; }
+  .login_wrapper_content {
+    display: table-cell;
+    position: relative;
+    z-index: 111;
+    color: #fff;
+    vertical-align: middle; }
+    .login_wrapper_content .form-login {
+      padding: 30px;
+      background: rgba(105, 105, 105, 0.8);
+      border-radius: 10px; }
+      .login_wrapper_content .form-login .validation-message {
+        height: 10px;
+        color: red;
+        text-transform: uppercase; }

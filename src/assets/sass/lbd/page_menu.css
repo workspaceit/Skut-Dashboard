@@ -1,0 +1,41 @@
+.page-menu {
+  border-left: 0px;
+  border-right: 0px;
+  background: #777777; }
+  .page-menu a {
+    display: inline-block;
+    padding: 10px 15px;
+    width: 50%;
+    position: relative; }
+    .page-menu a:first-child {
+      margin-right: -4px;
+      border-right: 1px solid #fff; }
+    .page-menu a:last-child:hover:after {
+      content: '';
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      background: #46CBFF; }
+    .page-menu a:hover:after {
+      content: '';
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background: #46CBFF; }
+    .page-menu a.active:after {
+      content: '';
+      position: absolute;
+      height: 5px;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background: #46CBFF; }
+    .page-menu a p {
+      margin: 0px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px; }

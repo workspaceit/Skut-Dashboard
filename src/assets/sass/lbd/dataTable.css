@@ -1,0 +1,6 @@
+.cell_des {
+  display: block;
+  text-align: center; }
+
+.ReactTable .-pagination .-btn {
+  height: auto !important; }
