@@ -14,7 +14,7 @@
     "react-bootstrap": "0.32.1",
     "react-chartist": "0.13.1",
     "react-confirm-alert": "^2.1.0",
-    "react-dom": "16.2.0",
+    "react-dom": "16.11.0",
     "react-file-base64": "^1.0.3",
     "react-google-maps": "9.4.5",
     "react-notification-system": "0.2.17",
